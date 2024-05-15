@@ -21,17 +21,6 @@ const Home = () => {
       <main className={styles.main} data-lk-theme="default">
         <div className="header">
           <img src="/images/livekit-meet-home.svg" alt="LiveKit Meet" width="360" height="45" />
-          <h2>
-            Open source video conferencing app built on{' '}
-            <a href="https://github.com/livekit/components-js?ref=meet" rel="noopener">
-              LiveKit&nbsp;Components
-            </a>
-            ,{' '}
-            <a href="https://livekit.io/cloud?ref=meet" rel="noopener">
-              LiveKit&nbsp;Cloud
-            </a>{' '}
-            and Next.js.
-          </h2>
         </div>
         <div className={styles.tabContent}>
           <button style={{ marginTop: '1rem' }} className="lk-button" onClick={startMeeting}>
@@ -62,15 +51,7 @@ const Home = () => {
         </div>
       </main>
       <footer data-lk-theme="default">
-        Hosted on{' '}
-        <a href="https://livekit.io/cloud?ref=meet" rel="noopener">
-          LiveKit Cloud
-        </a>
-        . Source code on{' '}
-        <a href="https://github.com/livekit/meet?ref=meet" rel="noopener">
-          GitHub
-        </a>
-        .
+        Hosted by <a href="https://vigilante.media" rel="noopener">Vigilante.media</a>
       </footer>
     </>
   );
